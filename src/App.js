@@ -1,28 +1,53 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from './winter.svg';
+import Actuator from "./components/actuator";
+import Level from "./components/level";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.targetClick = this.targetClick.bind(this);
+  }
+
+  targetClick(label) {
+    console.log(label + " was clicked!");
+  }
+
+  componentDidMount = () => {
+    this.interval = setInterval(() => {
+      this.setState({ time: new Date().toLocaleTimeString()});
+      console.log(this.state.time);
+    }, 1000);
+    
+  }
+  
+  componentWillUnmount = () => {
+    clearInterval(this.interval);
+  }
+  
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            This is Winter the Cat!
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Actuator label="potato" onClick={this.targetClick}/>
+          <Level level="5"/>
+          <Actuator label="raf" onClick={this.targetClick}/>
+          <Actuator label="nara" onClick={this.targetClick}/>
+          <Actuator label="asfsa" onClick={this.targetClick}/>
         </header>
       </div>
     );
   }
+
+  
+  
+  
 }
 
 export default App;
