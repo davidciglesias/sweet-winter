@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/js/runtime~main.fa4f01fe.js"
   },
   {
-    "revision": "3b3f4e7eedbbb977d4b0",
-    "url": "/sweet-winter/static/js/main.3b3f4e7e.chunk.js"
+    "revision": "5fcbe3d963111d206034",
+    "url": "/sweet-winter/static/js/main.5fcbe3d9.chunk.js"
   },
   {
-    "revision": "93574c426126d31c48b2",
-    "url": "/sweet-winter/static/js/1.93574c42.chunk.js"
+    "revision": "72e7f5bb261c6c1de9ce",
+    "url": "/sweet-winter/static/js/1.72e7f5bb.chunk.js"
   },
   {
-    "revision": "3b3f4e7eedbbb977d4b0",
+    "revision": "5fcbe3d963111d206034",
     "url": "/sweet-winter/static/css/main.728fe27c.chunk.css"
   },
   {
-    "revision": "989525af95acf761503a251a0968a673",
+    "revision": "66c373077624920e47fa4cd5ed3b82ba",
     "url": "/sweet-winter/index.html"
   }
 ];
