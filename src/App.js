@@ -3,23 +3,35 @@ import './App.css';
 import logo from './winter.svg';
 import Actuator from "./components/actuator";
 import Level from "./components/level";
+import Cat from './components/cat';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.targetClick = this.targetClick.bind(this);
+    this.state = ({ seconds: 0 });
   }
 
   targetClick(label) {
     console.log(label + " was clicked!");
+    this.restartInterval();
+    this.setState((prevState) => {return {seconds: prevState.seconds >= 5 ? prevState.seconds - 5 : 0}})
+  }
+
+  interval;
+
+  restartInterval = () => {
+    clearInterval(this.interval);
+    this.interval = setInterval(() => {
+      this.setState(
+        (prevState) => { return {seconds: prevState.seconds > 4 ? 5 : prevState.seconds + 1 }}
+      );
+      console.log(this.state.seconds);
+    }, 300);
   }
 
   componentDidMount = () => {
-    this.interval = setInterval(() => {
-      this.setState({ time: new Date().toLocaleTimeString()});
-      console.log(this.state.time);
-    }, 1000);
-    
+    this.restartInterval();
   }
   
   componentWillUnmount = () => {
@@ -31,12 +43,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            This is Winter the Cat!
-          </p>
+          <Cat logo={logo}/>
           <Actuator label="potato" onClick={this.targetClick}/>
-          <Level level="5"/>
+          <Level level={this.state.seconds} max="5"/>
           <Actuator label="raf" onClick={this.targetClick}/>
           <Actuator label="nara" onClick={this.targetClick}/>
           <Actuator label="asfsa" onClick={this.targetClick}/>

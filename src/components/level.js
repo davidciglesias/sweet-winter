@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Level = ({level}) => 
+const Level = ({level, max}) => 
     (
         <div>
-            {level}
+            {level > parseInt(max) ? max : level }
         </div>
     );
 
