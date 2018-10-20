@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/sweet-winter/precache-manifest.59f18b5e2124ca2f53ed344455730359.js"
+  "/sweet-winter/precache-manifest.be20765b1905ed5c97ecbcf6a3d82cb1.js"
 );
 
 workbox.clientsClaim();
