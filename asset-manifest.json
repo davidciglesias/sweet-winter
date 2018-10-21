@@ -1,7 +1,7 @@
 {
   "main.css": "/sweet-winter/static/css/main.ec45d262.chunk.css",
-  "main.js": "/sweet-winter/static/js/main.adbdb196.chunk.js",
-  "main.js.map": "/sweet-winter/static/js/main.adbdb196.chunk.js.map",
+  "main.js": "/sweet-winter/static/js/main.1fec528a.chunk.js",
+  "main.js.map": "/sweet-winter/static/js/main.1fec528a.chunk.js.map",
   "static/js/1.5b70a52c.chunk.js": "/sweet-winter/static/js/1.5b70a52c.chunk.js",
   "static/js/1.5b70a52c.chunk.js.map": "/sweet-winter/static/js/1.5b70a52c.chunk.js.map",
   "runtime~main.js": "/sweet-winter/static/js/runtime~main.fa4f01fe.js",
@@ -13,6 +13,6 @@
   "static/media/winterFood.svg": "/sweet-winter/static/media/winterFood.13333d1a.svg",
   "static/css/main.ec45d262.chunk.css.map": "/sweet-winter/static/css/main.ec45d262.chunk.css.map",
   "index.html": "/sweet-winter/index.html",
-  "precache-manifest.7e0e46706b2ecefa51e6ad980319cb8f.js": "/sweet-winter/precache-manifest.7e0e46706b2ecefa51e6ad980319cb8f.js",
+  "precache-manifest.50a08252b330e66d3ab1d28ec8eb6a5f.js": "/sweet-winter/precache-manifest.50a08252b330e66d3ab1d28ec8eb6a5f.js",
   "service-worker.js": "/sweet-winter/service-worker.js"
 }
