@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "bd5c0bdedfe7ceeccad69bad5d695ad7",
-    "url": "/sweet-winter/static/media/winterPoop.bd5c0bde.svg"
+    "revision": "f3a439cbd30b0a5512af3ca75bb6cf45",
+    "url": "/sweet-winter/static/media/winterPoop.f3a439cb.svg"
   },
   {
-    "revision": "70b1c5b763d190b8da2b996987f33be7",
-    "url": "/sweet-winter/static/media/winterGame.70b1c5b7.svg"
+    "revision": "c109ee3b961deb47f4291a49df06215f",
+    "url": "/sweet-winter/static/media/winterGame.c109ee3b.svg"
   },
   {
-    "revision": "13333d1a7bcdfd99869b719198d356d1",
-    "url": "/sweet-winter/static/media/winterFood.13333d1a.svg"
+    "revision": "d007ad3692047524dc5b2e2a02d12d86",
+    "url": "/sweet-winter/static/media/winterFood.d007ad36.svg"
   },
   {
     "revision": "23d56473e1b54b84fd5f4eda05196305",
@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/js/runtime~main.fa4f01fe.js"
   },
   {
-    "revision": "979513d806459853bc6e",
-    "url": "/sweet-winter/static/js/main.979513d8.chunk.js"
+    "revision": "c14f758c273c8c3d1b5f",
+    "url": "/sweet-winter/static/js/main.c14f758c.chunk.js"
   },
   {
     "revision": "5b70a52c34321c357161",
     "url": "/sweet-winter/static/js/1.5b70a52c.chunk.js"
   },
   {
-    "revision": "979513d806459853bc6e",
+    "revision": "c14f758c273c8c3d1b5f",
     "url": "/sweet-winter/static/css/main.ec45d262.chunk.css"
   },
   {
-    "revision": "eefaecc78d0a0e86f8db70ccf1a4f163",
+    "revision": "0427fc93026c0669ab43ae1b45615c81",
     "url": "/sweet-winter/index.html"
   }
 ];
