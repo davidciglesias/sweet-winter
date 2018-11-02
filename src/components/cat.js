@@ -1,12 +1,18 @@
 import React from 'react';
+import ReactSVG from 'react-svg'
 
-const Cat = ({logo}) => (
+const rEye = 
+    <svg className="rightEye">
+        <g transform="translate(100,0)">
+            <circle cx="50" cy="0" r="100"/>
+        </g>
+    </svg>
+
+const Cat = ({logo, name}) => (
     <div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            This is Winter the Cat!
-        </p>
+        <ReactSVG src={logo}></ReactSVG>
+        <p>{name}</p>
     </div>
-);
+)
 
-export default Cat;
+export default Cat

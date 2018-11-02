@@ -4,9 +4,14 @@
   "homepage": "http://davidciglesias.github.io/sweet-winter",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.2.2",
+    "@material-ui/icons": "^3.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "react-svg": "^6.0.18",
+    "styled-components": "^4.0.2",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,6 +31,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
     "gh-pages": "^2.0.1"
   }
 }
