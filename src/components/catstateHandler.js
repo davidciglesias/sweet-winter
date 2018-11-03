@@ -8,8 +8,8 @@ class CatStateHandler extends Component {
         super(props)
         this.state = {
             label: props.label,
-            currentLevel: 0,
-            message: ""
+            currentLevel: props.initialLevel,
+            message: "",
         }
         this.targetClick = this.targetClick.bind(this)
     }    
@@ -33,7 +33,11 @@ class CatStateHandler extends Component {
     }
 
     calculateScoreBasedOnLevel(level) {
-        return (this.props.maxLevel - level) / 100
+        return {
+            score: (this.props.maxLevel - level) / this.props.maxLevel,
+            level: this.state.currentLevel,
+            label: this.props.label
+        }
     }
     
     tick() {
@@ -58,7 +62,7 @@ class CatStateHandler extends Component {
 
     componentDidMount = () => {
         this.setState({
-            currentLevel: 0
+            currentLevel: this.props.initialLevel
         })
         setTimeout(this.restartInterval(), Math.random() * 500)
     }
@@ -92,14 +96,6 @@ class CatStateHandler extends Component {
                     color={this.props.color}
                     option={this.props.theme}
                 />
-{/*                 <Level 
-                    level={this.state.currentLevel}
-                    max={this.props.maxLevel}
-                />
-                <ActuatorLabel
-                    time="1000"
-                    text={this.state.message}
-                /> */}
             </>
         )
     }
