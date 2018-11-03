@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/media/winter.23d56473.svg"
   },
   {
-    "revision": "9abe5816d81ae2c9b5f6",
+    "revision": "a69ef3692e8e39b9f36f",
     "url": "/sweet-winter/static/css/main.788abe23.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/media/meow.39a5aed0.mp3"
   },
   {
-    "revision": "9abe5816d81ae2c9b5f6",
-    "url": "/sweet-winter/static/js/main.9abe5816.chunk.js"
+    "revision": "a69ef3692e8e39b9f36f",
+    "url": "/sweet-winter/static/js/main.a69ef369.chunk.js"
   },
   {
     "revision": "d007ad3692047524dc5b2e2a02d12d86",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/media/baseline-pets-24px.90213864.svg"
   },
   {
-    "revision": "bcaf7612ee9e9ff5dab5b25aed789ade",
+    "revision": "9f6ad94095be9b2afad3f98acf6ddfd4",
     "url": "/sweet-winter/index.html"
   }
 ];
