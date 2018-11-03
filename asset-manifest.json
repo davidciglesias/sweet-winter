@@ -1,9 +1,9 @@
 {
-  "main.css": "/sweet-winter/static/css/main.c97b9507.chunk.css",
-  "main.js": "/sweet-winter/static/js/main.9b932d06.chunk.js",
-  "main.js.map": "/sweet-winter/static/js/main.9b932d06.chunk.js.map",
-  "static/js/1.ac256959.chunk.js": "/sweet-winter/static/js/1.ac256959.chunk.js",
-  "static/js/1.ac256959.chunk.js.map": "/sweet-winter/static/js/1.ac256959.chunk.js.map",
+  "main.css": "/sweet-winter/static/css/main.788abe23.chunk.css",
+  "main.js": "/sweet-winter/static/js/main.9abe5816.chunk.js",
+  "main.js.map": "/sweet-winter/static/js/main.9abe5816.chunk.js.map",
+  "static/js/1.5a0c32a3.chunk.js": "/sweet-winter/static/js/1.5a0c32a3.chunk.js",
+  "static/js/1.5a0c32a3.chunk.js.map": "/sweet-winter/static/js/1.5a0c32a3.chunk.js.map",
   "runtime~main.js": "/sweet-winter/static/js/runtime~main.fa4f01fe.js",
   "runtime~main.js.map": "/sweet-winter/static/js/runtime~main.fa4f01fe.js.map",
   "static/media/meow.mp3": "/sweet-winter/static/media/meow.39a5aed0.mp3",
@@ -12,8 +12,8 @@
   "static/media/winterGame.svg": "/sweet-winter/static/media/winterGame.c109ee3b.svg",
   "static/media/baseline-pets-24px.svg": "/sweet-winter/static/media/baseline-pets-24px.90213864.svg",
   "static/media/winter.svg": "/sweet-winter/static/media/winter.23d56473.svg",
-  "static/css/main.c97b9507.chunk.css.map": "/sweet-winter/static/css/main.c97b9507.chunk.css.map",
+  "static/css/main.788abe23.chunk.css.map": "/sweet-winter/static/css/main.788abe23.chunk.css.map",
   "index.html": "/sweet-winter/index.html",
-  "precache-manifest.6fa55cd9240b35972213ad930a4ed7c6.js": "/sweet-winter/precache-manifest.6fa55cd9240b35972213ad930a4ed7c6.js",
+  "precache-manifest.f30464dfcc8840d3b2ba8c802c5f27c5.js": "/sweet-winter/precache-manifest.f30464dfcc8840d3b2ba8c802c5f27c5.js",
   "service-worker.js": "/sweet-winter/service-worker.js"
 }

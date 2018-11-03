@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/media/winter.23d56473.svg"
   },
   {
-    "revision": "9b932d063d1d9d77deb0",
-    "url": "/sweet-winter/static/css/main.c97b9507.chunk.css"
+    "revision": "9abe5816d81ae2c9b5f6",
+    "url": "/sweet-winter/static/css/main.788abe23.chunk.css"
   },
   {
-    "revision": "ac25695983483c2c0abe",
-    "url": "/sweet-winter/static/js/1.ac256959.chunk.js"
+    "revision": "5a0c32a3d965cc4ee276",
+    "url": "/sweet-winter/static/js/1.5a0c32a3.chunk.js"
   },
   {
     "revision": "fa4f01fe11848fb7df6c",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/media/meow.39a5aed0.mp3"
   },
   {
-    "revision": "9b932d063d1d9d77deb0",
-    "url": "/sweet-winter/static/js/main.9b932d06.chunk.js"
+    "revision": "9abe5816d81ae2c9b5f6",
+    "url": "/sweet-winter/static/js/main.9abe5816.chunk.js"
   },
   {
     "revision": "d007ad3692047524dc5b2e2a02d12d86",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/sweet-winter/static/media/baseline-pets-24px.90213864.svg"
   },
   {
-    "revision": "6737d874a443770a339a777cf320afad",
+    "revision": "bcaf7612ee9e9ff5dab5b25aed789ade",
     "url": "/sweet-winter/index.html"
   }
 ];
